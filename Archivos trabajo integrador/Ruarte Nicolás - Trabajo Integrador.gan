@@ -37,17 +37,17 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="Trabajo integrador de programación" meeting="false" start="2023-10-13" duration="33" complete="87" expand="true">
+        <task id="0" name="Trabajo integrador de programación" meeting="false" start="2023-10-13" duration="33" complete="91" expand="true">
             <task id="1" name="Realizar la entrevista previa al inicio del proyecto" color="#8cb6ce" meeting="false" start="2023-10-13" duration="1" complete="95" thirdDate="2023-10-13" thirdDate-constraint="0" expand="true"/>
-            <task id="2" name="Planificación" color="#8cb6ce" meeting="false" start="2023-10-16" duration="14" complete="90" thirdDate="2023-10-13" thirdDate-constraint="0" expand="true">
+            <task id="2" name="Planificación" color="#8cb6ce" meeting="false" start="2023-10-16" duration="16" complete="95" thirdDate="2023-10-13" thirdDate-constraint="0" expand="true">
                 <depend id="9" type="2" difference="0" hardness="Strong"/>
                 <task id="3" name="Realizar el Project Charter" color="#8cb6ce" meeting="false" start="2023-10-16" duration="6" complete="100" thirdDate="2023-10-13" thirdDate-constraint="0" expand="true"/>
                 <task id="7" name="Realizar el estudio de viabilidad" color="#8cb6ce" meeting="false" start="2023-10-16" duration="13" complete="100" thirdDate="2023-10-13" thirdDate-constraint="0" expand="true"/>
                 <task id="8" name="Realizar el análisis de riesgos" color="#8cb6ce" meeting="false" start="2023-10-29" duration="1" complete="100" thirdDate="2023-10-13" thirdDate-constraint="0" expand="true"/>
-                <task id="11" name="Estimación" color="#8cb6ce" meeting="false" start="2023-10-28" duration="1" complete="0" thirdDate="2023-10-21" thirdDate-constraint="0" expand="true"/>
-                <task id="12" name="Planificación temporal y asignación de recursos" color="#8cb6ce" meeting="false" start="2023-10-29" duration="1" complete="0" thirdDate="2023-10-28" thirdDate-constraint="0" expand="true"/>
+                <task id="11" name="Estimación" color="#8cb6ce" meeting="false" start="2023-10-30" duration="1" complete="100" thirdDate="2023-10-21" thirdDate-constraint="0" expand="true"/>
+                <task id="12" name="Planificación temporal y asignación de recursos" color="#8cb6ce" meeting="false" start="2023-10-31" duration="1" complete="0" thirdDate="2023-10-28" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="9" name="Análisis" color="#8cb6ce" meeting="false" start="2023-10-30" duration="1" complete="0" thirdDate="2023-10-13" thirdDate-constraint="0" expand="true"/>
+            <task id="9" name="Análisis" color="#8cb6ce" meeting="false" start="2023-11-01" duration="1" complete="0" thirdDate="2023-10-13" thirdDate-constraint="0" expand="true"/>
             <task id="10" name="Último día" color="#ff3333" meeting="true" start="2023-11-15" duration="0" complete="0" thirdDate="2023-10-13" thirdDate-constraint="0" expand="true"/>
         </task>
     </tasks>
