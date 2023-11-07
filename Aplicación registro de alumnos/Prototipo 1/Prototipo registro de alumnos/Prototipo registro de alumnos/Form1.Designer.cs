@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btn_buscarAlumnos = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -42,21 +42,21 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btn_buscarAlumnos
             // 
-            this.button2.Location = new System.Drawing.Point(425, 91);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(250, 254);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Buscar alumnos";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btn_buscarAlumnos.Location = new System.Drawing.Point(425, 91);
+            this.btn_buscarAlumnos.Name = "btn_buscarAlumnos";
+            this.btn_buscarAlumnos.Size = new System.Drawing.Size(250, 254);
+            this.btn_buscarAlumnos.TabIndex = 1;
+            this.btn_buscarAlumnos.Text = "Buscar alumnos";
+            this.btn_buscarAlumnos.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btn_buscarAlumnos);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -67,6 +67,6 @@
         #endregion
 
         private Button button1;
-        private Button button2;
+        private Button btn_buscarAlumnos;
     }
 }
