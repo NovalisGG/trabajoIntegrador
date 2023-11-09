@@ -74,6 +74,7 @@
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -459,11 +460,21 @@
             this.label25.TabIndex = 46;
             this.label25.Text = "Registro de alumnos";
             // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(469, 36);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(263, 25);
+            this.label26.TabIndex = 47;
+            this.label26.Text = "IPET N° 247 Ing. C Cassaffousth";
+            // 
             // pantallaRegistrar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1166, 571);
+            this.Controls.Add(this.label26);
             this.Controls.Add(this.label25);
             this.Controls.Add(this.textBox12);
             this.Controls.Add(this.textBox11);
@@ -511,7 +522,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "pantallaRegistrar";
-            this.Text = "pantallaRegistrar";
+            this.Text = "Registrar alumnos";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -566,5 +577,6 @@
         private TextBox textBox11;
         private TextBox textBox12;
         private Label label25;
+        private Label label26;
     }
 }

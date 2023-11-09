@@ -114,7 +114,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "pantallaBuscar";
-            this.Text = "pantallaBuscar";
+            this.Text = "Buscar alumnos";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

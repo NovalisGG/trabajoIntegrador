@@ -50,6 +50,7 @@
             this.btn_buscarAlumnos.TabIndex = 1;
             this.btn_buscarAlumnos.Text = "Buscar alumnos";
             this.btn_buscarAlumnos.UseVisualStyleBackColor = true;
+            this.btn_buscarAlumnos.Click += new System.EventHandler(this.btn_buscarAlumnos_Click);
             // 
             // Form1
             // 
@@ -59,7 +60,7 @@
             this.Controls.Add(this.btn_buscarAlumnos);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Registro de alumnos";
             this.ResumeLayout(false);
 
         }
