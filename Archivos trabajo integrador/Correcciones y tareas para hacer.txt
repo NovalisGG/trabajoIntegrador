@@ -1,0 +1,2 @@
+Correcciones:
+Diagrama Aplicacion: Cambiar el ingresa nombre alumno por "busca al alumno" y agregar el proceso de MessageBox y actualizacion de datos en PRoceso borrar datos

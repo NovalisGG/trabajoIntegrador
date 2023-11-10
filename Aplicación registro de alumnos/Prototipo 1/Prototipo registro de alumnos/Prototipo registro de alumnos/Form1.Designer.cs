@@ -56,6 +56,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(21)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btn_buscarAlumnos);
             this.Controls.Add(this.button1);

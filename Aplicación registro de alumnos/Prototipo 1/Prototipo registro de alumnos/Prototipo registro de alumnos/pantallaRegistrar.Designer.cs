@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(pantallaRegistrar));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -80,145 +80,179 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(69, 79);
+            this.pictureBox1.Size = new System.Drawing.Size(90, 94);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(-2, 36);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(116, 25);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Logo colegio";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.Color.Gold;
             this.label2.Location = new System.Drawing.Point(12, 160);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(147, 25);
+            this.label2.Size = new System.Drawing.Size(155, 25);
             this.label2.TabIndex = 2;
             this.label2.Text = "Nombre alumno:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.ForeColor = System.Drawing.Color.Gold;
             this.label3.Location = new System.Drawing.Point(12, 199);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(147, 25);
+            this.label3.Size = new System.Drawing.Size(157, 25);
             this.label3.TabIndex = 3;
             this.label3.Text = "Apellido alumno:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label4.ForeColor = System.Drawing.Color.Gold;
             this.label4.Location = new System.Drawing.Point(12, 273);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(178, 25);
+            this.label4.Size = new System.Drawing.Size(192, 25);
             this.label4.TabIndex = 4;
             this.label4.Text = "Fecha de nacimiento:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.label5.ForeColor = System.Drawing.Color.Gold;
             this.label5.Location = new System.Drawing.Point(12, 120);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(153, 25);
+            this.label5.Size = new System.Drawing.Size(249, 38);
             this.label5.TabIndex = 5;
             this.label5.Text = "Datos del alumno";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label6.ForeColor = System.Drawing.Color.Gold;
             this.label6.Location = new System.Drawing.Point(12, 236);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(47, 25);
+            this.label6.Size = new System.Drawing.Size(50, 25);
             this.label6.TabIndex = 6;
             this.label6.Text = "DNI:";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label7.ForeColor = System.Drawing.Color.Gold;
             this.label7.Location = new System.Drawing.Point(12, 312);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(177, 25);
+            this.label7.Size = new System.Drawing.Size(189, 25);
             this.label7.TabIndex = 7;
             this.label7.Text = "Número de teléfono:";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label8.ForeColor = System.Drawing.Color.Gold;
             this.label8.Location = new System.Drawing.Point(12, 346);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(58, 25);
+            this.label8.Size = new System.Drawing.Size(63, 25);
             this.label8.TabIndex = 8;
             this.label8.Text = "Email:";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label9.ForeColor = System.Drawing.Color.Gold;
             this.label9.Location = new System.Drawing.Point(12, 381);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(91, 25);
+            this.label9.Size = new System.Drawing.Size(97, 25);
             this.label9.TabIndex = 9;
             this.label9.Text = "Domicilio:";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label10.ForeColor = System.Drawing.Color.Gold;
             this.label10.Location = new System.Drawing.Point(109, 381);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(62, 25);
+            this.label10.Size = new System.Drawing.Size(69, 25);
             this.label10.TabIndex = 10;
             this.label10.Text = "Barrio:";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.Transparent;
+            this.label11.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label11.ForeColor = System.Drawing.Color.Gold;
             this.label11.Location = new System.Drawing.Point(337, 384);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(53, 25);
+            this.label11.Size = new System.Drawing.Size(58, 25);
             this.label11.TabIndex = 11;
             this.label11.Text = "Calle:";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.Transparent;
+            this.label12.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label12.ForeColor = System.Drawing.Color.Gold;
             this.label12.Location = new System.Drawing.Point(552, 385);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(46, 25);
+            this.label12.Size = new System.Drawing.Size(49, 25);
             this.label12.TabIndex = 12;
             this.label12.Text = "Nro:";
             // 
             // label13
             // 
             this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.Transparent;
+            this.label13.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label13.ForeColor = System.Drawing.Color.Gold;
             this.label13.Location = new System.Drawing.Point(12, 422);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(62, 25);
+            this.label13.Size = new System.Drawing.Size(65, 25);
             this.label13.TabIndex = 13;
             this.label13.Text = "Curso:";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.Transparent;
+            this.label14.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label14.ForeColor = System.Drawing.Color.Gold;
             this.label14.Location = new System.Drawing.Point(136, 422);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(75, 25);
+            this.label14.Size = new System.Drawing.Size(80, 25);
             this.label14.TabIndex = 14;
             this.label14.Text = "División";
             // 
             // label15
             // 
             this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.Transparent;
+            this.label15.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label15.ForeColor = System.Drawing.Color.Gold;
             this.label15.Location = new System.Drawing.Point(320, 422);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(62, 25);
+            this.label15.Size = new System.Drawing.Size(68, 25);
             this.label15.TabIndex = 15;
             this.label15.Text = "Turno:";
             // 
@@ -257,7 +291,7 @@
             // dateTimePicker1
             // 
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(192, 277);
+            this.dateTimePicker1.Location = new System.Drawing.Point(207, 272);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(149, 31);
             this.dateTimePicker1.TabIndex = 20;
@@ -265,9 +299,12 @@
             // label16
             // 
             this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.Transparent;
+            this.label16.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label16.ForeColor = System.Drawing.Color.Gold;
             this.label16.Location = new System.Drawing.Point(12, 466);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(113, 25);
+            this.label16.Size = new System.Drawing.Size(122, 25);
             this.label16.TabIndex = 21;
             this.label16.Text = "Especialidad:";
             // 
@@ -281,6 +318,7 @@
             // 
             // textBox2
             // 
+            this.textBox2.BackColor = System.Drawing.Color.DimGray;
             this.textBox2.Location = new System.Drawing.Point(164, 160);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(150, 31);
@@ -302,6 +340,7 @@
             // 
             // button1
             // 
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.button1.Location = new System.Drawing.Point(12, 525);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(112, 34);
@@ -312,36 +351,48 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(711, 120);
+            this.label17.BackColor = System.Drawing.Color.Transparent;
+            this.label17.Font = new System.Drawing.Font("Segoe UI", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.label17.ForeColor = System.Drawing.Color.Gold;
+            this.label17.Location = new System.Drawing.Point(711, 107);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(136, 25);
+            this.label17.Size = new System.Drawing.Size(224, 38);
             this.label17.TabIndex = 28;
             this.label17.Text = "Datos del tutor:";
             // 
             // label18
             // 
             this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.Color.Transparent;
+            this.label18.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label18.ForeColor = System.Drawing.Color.Gold;
             this.label18.Location = new System.Drawing.Point(711, 160);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(126, 25);
+            this.label18.Size = new System.Drawing.Size(134, 25);
             this.label18.TabIndex = 29;
             this.label18.Text = "Nombre tutor:";
             // 
             // label19
             // 
             this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.Color.Transparent;
+            this.label19.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label19.ForeColor = System.Drawing.Color.Gold;
             this.label19.Location = new System.Drawing.Point(711, 205);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(126, 25);
+            this.label19.Size = new System.Drawing.Size(136, 25);
             this.label19.TabIndex = 30;
             this.label19.Text = "Apellido tutor:";
             // 
             // label20
             // 
             this.label20.AutoSize = true;
+            this.label20.BackColor = System.Drawing.Color.Transparent;
+            this.label20.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label20.ForeColor = System.Drawing.Color.Gold;
             this.label20.Location = new System.Drawing.Point(711, 236);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(91, 25);
+            this.label20.Size = new System.Drawing.Size(98, 25);
             this.label20.TabIndex = 31;
             this.label20.Text = "DNI tutor:";
             // 
@@ -355,14 +406,15 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(179, 312);
+            this.textBox1.Location = new System.Drawing.Point(207, 309);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(150, 31);
             this.textBox1.TabIndex = 33;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(76, 340);
+            this.textBox5.Location = new System.Drawing.Point(81, 343);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(150, 31);
             this.textBox5.TabIndex = 34;
@@ -378,9 +430,12 @@
             // label22
             // 
             this.label22.AutoSize = true;
+            this.label22.BackColor = System.Drawing.Color.Transparent;
+            this.label22.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label22.ForeColor = System.Drawing.Color.Gold;
             this.label22.Location = new System.Drawing.Point(711, 273);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(178, 25);
+            this.label22.Size = new System.Drawing.Size(192, 25);
             this.label22.TabIndex = 35;
             this.label22.Text = "Fecha de nacimiento:";
             // 
@@ -394,9 +449,12 @@
             // label23
             // 
             this.label23.AutoSize = true;
+            this.label23.BackColor = System.Drawing.Color.Transparent;
+            this.label23.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label23.ForeColor = System.Drawing.Color.Gold;
             this.label23.Location = new System.Drawing.Point(712, 318);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(177, 25);
+            this.label23.Size = new System.Drawing.Size(189, 25);
             this.label23.TabIndex = 37;
             this.label23.Text = "Número de teléfono:";
             // 
@@ -410,9 +468,12 @@
             // label24
             // 
             this.label24.AutoSize = true;
+            this.label24.BackColor = System.Drawing.Color.Transparent;
+            this.label24.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label24.ForeColor = System.Drawing.Color.Gold;
             this.label24.Location = new System.Drawing.Point(712, 365);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(58, 25);
+            this.label24.Size = new System.Drawing.Size(63, 25);
             this.label24.TabIndex = 39;
             this.label24.Text = "Email:";
             // 
@@ -454,18 +515,25 @@
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(518, 9);
+            this.label25.BackColor = System.Drawing.Color.Transparent;
+            this.label25.Font = new System.Drawing.Font("Swis721 Blk BT", 16F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point);
+            this.label25.ForeColor = System.Drawing.Color.Gold;
+            this.label25.Location = new System.Drawing.Point(382, 9);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(176, 25);
+            this.label25.Size = new System.Drawing.Size(381, 39);
             this.label25.TabIndex = 46;
             this.label25.Text = "Registro de alumnos";
+            this.label25.Click += new System.EventHandler(this.label25_Click);
             // 
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(469, 36);
+            this.label26.BackColor = System.Drawing.Color.Transparent;
+            this.label26.Font = new System.Drawing.Font("Swis721 Blk BT", 16F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point);
+            this.label26.ForeColor = System.Drawing.Color.Gold;
+            this.label26.Location = new System.Drawing.Point(281, 52);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(263, 25);
+            this.label26.Size = new System.Drawing.Size(575, 39);
             this.label26.TabIndex = 47;
             this.label26.Text = "IPET N° 247 Ing. C Cassaffousth";
             // 
@@ -473,6 +541,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1166, 571);
             this.Controls.Add(this.label26);
             this.Controls.Add(this.label25);
@@ -519,8 +590,8 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.ForeColor = System.Drawing.Color.Gold;
             this.Name = "pantallaRegistrar";
             this.Text = "Registrar alumnos";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -532,7 +603,6 @@
         #endregion
 
         private PictureBox pictureBox1;
-        private Label label1;
         private Label label2;
         private Label label3;
         private Label label4;

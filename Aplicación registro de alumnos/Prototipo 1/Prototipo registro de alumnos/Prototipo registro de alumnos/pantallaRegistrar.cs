@@ -21,5 +21,15 @@ namespace Prototipo_registro_de_alumnos
         {
 
         }
+
+        private void label25_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
