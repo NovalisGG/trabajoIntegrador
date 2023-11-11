@@ -14,9 +14,4 @@
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <None Update="DataClasses1.dbml">
-      <SubType>Designer</SubType>
-    </None>
-  </ItemGroup>
 </Project>
