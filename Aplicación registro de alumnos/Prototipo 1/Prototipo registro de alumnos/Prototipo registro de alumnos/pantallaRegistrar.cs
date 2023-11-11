@@ -31,5 +31,10 @@ namespace Prototipo_registro_de_alumnos
         {
 
         }
+
+        private void pantallaRegistrar_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

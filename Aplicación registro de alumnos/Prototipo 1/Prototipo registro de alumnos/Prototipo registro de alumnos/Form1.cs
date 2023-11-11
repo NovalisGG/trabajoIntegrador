@@ -18,5 +18,15 @@ namespace Prototipo_registro_de_alumnos
         {
             ventanaBuscar.ShowDialog();
         }
+
+        private void btn_registrar_Click(object sender, EventArgs e)
+        {
+            ventanaRegistrar.ShowDialog();
+        }
+
+        private void btn_buscar_Click(object sender, EventArgs e)
+        {
+            ventanaBuscar.ShowDialog();
+        }
     }
 }
