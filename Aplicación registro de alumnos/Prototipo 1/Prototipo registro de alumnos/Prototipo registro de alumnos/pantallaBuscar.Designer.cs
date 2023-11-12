@@ -36,9 +36,9 @@
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button2 = new System.Windows.Forms.Button();
+            this.btn_Buscar = new Prototipo_registro_de_alumnos.BotonPersonalizado();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -100,15 +100,6 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Búsqueda de datos";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(572, 102);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(112, 31);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Buscar";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
@@ -130,6 +121,24 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // btn_Buscar
+            // 
+            this.btn_Buscar.BackColor = System.Drawing.Color.Red;
+            this.btn_Buscar.BackgroundColor = System.Drawing.Color.Red;
+            this.btn_Buscar.BorderColor = System.Drawing.Color.Yellow;
+            this.btn_Buscar.BorderRadius = 40;
+            this.btn_Buscar.BorderSize = 0;
+            this.btn_Buscar.FlatAppearance.BorderSize = 0;
+            this.btn_Buscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Buscar.ForeColor = System.Drawing.Color.White;
+            this.btn_Buscar.Location = new System.Drawing.Point(572, 94);
+            this.btn_Buscar.Name = "btn_Buscar";
+            this.btn_Buscar.Size = new System.Drawing.Size(99, 46);
+            this.btn_Buscar.TabIndex = 7;
+            this.btn_Buscar.Text = "Buscar";
+            this.btn_Buscar.TextColor = System.Drawing.Color.White;
+            this.btn_Buscar.UseVisualStyleBackColor = false;
+            // 
             // pantallaBuscar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
@@ -138,9 +147,9 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn_Buscar);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.dataGridView1);
@@ -158,12 +167,12 @@
         private DataGridView dataGridView1;
         private TextBox textBox1;
         private Label label1;
-        private Button button1;
         private PictureBox pictureBox1;
         private Button button2;
         private DataGridViewTextBoxColumn Column1;
         private DataGridViewTextBoxColumn Column2;
         private DataGridViewTextBoxColumn Column3;
         private DataGridViewTextBoxColumn Column4;
+        private BotonPersonalizado btn_Buscar;
     }
 }

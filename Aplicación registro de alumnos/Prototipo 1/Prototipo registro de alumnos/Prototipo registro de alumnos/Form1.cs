@@ -1,9 +1,14 @@
+using System.Data.SqlClient;
+using System.Data;
+
 namespace Prototipo_registro_de_alumnos
+
 {
     public partial class Form1 : Form
     {
         pantallaRegistrar ventanaRegistrar = new pantallaRegistrar();
         pantallaBuscar ventanaBuscar = new pantallaBuscar();
+        SqlConnection conn = new SqlConnection("@Data Source=MARIANORUARTE;Initial Catalog=RegistroAlumnosCassaffousth;Integrated Security=True");
         public Form1()
         {
             InitializeComponent();
