@@ -8,7 +8,7 @@ namespace Prototipo_registro_de_alumnos
     {
         pantallaRegistrar ventanaRegistrar = new pantallaRegistrar();
         pantallaBuscar ventanaBuscar = new pantallaBuscar();
-        SqlConnection conn = new SqlConnection("@Data Source=MARIANORUARTE;Initial Catalog=RegistroAlumnosCassaffousth;Integrated Security=True");
+        SqlConnection conn = new SqlConnection(@"Data Source=MARIANORUARTE;Initial Catalog=RegistroAlumnosCassaffousth;Integrated Security=True");
         public Form1()
         {
             InitializeComponent();

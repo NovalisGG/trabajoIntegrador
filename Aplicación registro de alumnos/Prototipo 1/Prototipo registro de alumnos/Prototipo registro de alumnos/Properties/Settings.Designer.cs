@@ -28,9 +28,9 @@ namespace Prototipo_registro_de_alumnos.Properties {
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
         [global::System.Configuration.DefaultSettingValueAttribute("Data Source=MARIANORUARTE;Initial Catalog=RegistroAlumnosCassaffousth;Integrated " +
             "Security=True")]
-        public string RegistroAlumnosCassaffousthConnectionString {
+        public string RegistroAlumnosCassaffousth {
             get {
-                return ((string)(this["RegistroAlumnosCassaffousthConnectionString"]));
+                return ((string)(this["RegistroAlumnosCassaffousth"]));
             }
         }
     }

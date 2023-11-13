@@ -43,39 +43,33 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label16 = new System.Windows.Forms.Label();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.label22 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.label24 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.label25 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.botonPersonalizado1 = new Prototipo_registro_de_alumnos.BotonPersonalizado();
+            this.botonPersonalizado2 = new Prototipo_registro_de_alumnos.BotonPersonalizado();
+            this.cmb_especialidades = new Prototipo_registro_de_alumnos.ComboboxPersonalizado();
+            this.cmb_turnos = new Prototipo_registro_de_alumnos.ComboboxPersonalizado();
+            this.cmb_divisiones = new Prototipo_registro_de_alumnos.ComboboxPersonalizado();
+            this.cmb_cursos = new Prototipo_registro_de_alumnos.ComboboxPersonalizado();
+            this.textBoxPersonalizado1 = new Prototipo_registro_de_alumnos.TextBoxPersonalizado();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -249,30 +243,6 @@
             this.label15.TabIndex = 15;
             this.label15.Text = "Turno:";
             // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(409, 498);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(152, 33);
-            this.comboBox1.TabIndex = 16;
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(234, 500);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(97, 33);
-            this.comboBox2.TabIndex = 17;
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(97, 500);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(58, 33);
-            this.comboBox3.TabIndex = 18;
-            // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -295,51 +265,6 @@
             this.label16.Size = new System.Drawing.Size(122, 25);
             this.label16.TabIndex = 21;
             this.label16.Text = "Especialidad:";
-            // 
-            // comboBox5
-            // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(148, 544);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(152, 33);
-            this.comboBox5.TabIndex = 22;
-            // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.Color.Gray;
-            this.textBox2.ForeColor = System.Drawing.Color.White;
-            this.textBox2.Location = new System.Drawing.Point(181, 190);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(150, 31);
-            this.textBox2.TabIndex = 24;
-            // 
-            // textBox3
-            // 
-            this.textBox3.BackColor = System.Drawing.Color.Gray;
-            this.textBox3.ForeColor = System.Drawing.Color.White;
-            this.textBox3.Location = new System.Drawing.Point(181, 229);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(150, 31);
-            this.textBox3.TabIndex = 25;
-            // 
-            // textBox4
-            // 
-            this.textBox4.BackColor = System.Drawing.Color.Gray;
-            this.textBox4.ForeColor = System.Drawing.Color.White;
-            this.textBox4.Location = new System.Drawing.Point(78, 266);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(150, 31);
-            this.textBox4.TabIndex = 26;
-            // 
-            // button1
-            // 
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button1.Location = new System.Drawing.Point(29, 623);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(112, 34);
-            this.button1.TabIndex = 27;
-            this.button1.Text = "Registrar";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // label17
             // 
@@ -396,25 +321,6 @@
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(0, 25);
             this.label21.TabIndex = 32;
-            // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.Color.Gray;
-            this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(224, 339);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(150, 31);
-            this.textBox1.TabIndex = 33;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // textBox5
-            // 
-            this.textBox5.BackColor = System.Drawing.Color.Gray;
-            this.textBox5.ForeColor = System.Drawing.Color.White;
-            this.textBox5.Location = new System.Drawing.Point(98, 373);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(150, 31);
-            this.textBox5.TabIndex = 34;
             // 
             // dateTimePicker2
             // 
@@ -478,24 +384,6 @@
             this.label24.TabIndex = 39;
             this.label24.Text = "Email:";
             // 
-            // textBox8
-            // 
-            this.textBox8.BackColor = System.Drawing.Color.Gray;
-            this.textBox8.ForeColor = System.Drawing.Color.White;
-            this.textBox8.Location = new System.Drawing.Point(95, 456);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(181, 31);
-            this.textBox8.TabIndex = 41;
-            // 
-            // textBox9
-            // 
-            this.textBox9.BackColor = System.Drawing.Color.Gray;
-            this.textBox9.ForeColor = System.Drawing.Color.White;
-            this.textBox9.Location = new System.Drawing.Point(334, 458);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(89, 31);
-            this.textBox9.TabIndex = 42;
-            // 
             // textBox10
             // 
             this.textBox10.BackColor = System.Drawing.Color.Gray;
@@ -556,15 +444,6 @@
             this.pictureBox2.TabIndex = 49;
             this.pictureBox2.TabStop = false;
             // 
-            // textBox13
-            // 
-            this.textBox13.BackColor = System.Drawing.Color.Gray;
-            this.textBox13.ForeColor = System.Drawing.Color.White;
-            this.textBox13.Location = new System.Drawing.Point(192, 412);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(150, 31);
-            this.textBox13.TabIndex = 50;
-            // 
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
@@ -575,6 +454,105 @@
             this.pictureBox3.Size = new System.Drawing.Size(787, 678);
             this.pictureBox3.TabIndex = 51;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            // 
+            // botonPersonalizado1
+            // 
+            this.botonPersonalizado1.BackColor = System.Drawing.Color.Red;
+            this.botonPersonalizado1.BackgroundColor = System.Drawing.Color.Red;
+            this.botonPersonalizado1.BorderColor = System.Drawing.Color.Yellow;
+            this.botonPersonalizado1.BorderRadius = 40;
+            this.botonPersonalizado1.BorderSize = 0;
+            this.botonPersonalizado1.FlatAppearance.BorderSize = 0;
+            this.botonPersonalizado1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botonPersonalizado1.ForeColor = System.Drawing.Color.White;
+            this.botonPersonalizado1.Location = new System.Drawing.Point(486, 606);
+            this.botonPersonalizado1.Name = "botonPersonalizado1";
+            this.botonPersonalizado1.Size = new System.Drawing.Size(225, 60);
+            this.botonPersonalizado1.TabIndex = 52;
+            this.botonPersonalizado1.Text = "Registrar";
+            this.botonPersonalizado1.TextColor = System.Drawing.Color.White;
+            this.botonPersonalizado1.UseVisualStyleBackColor = false;
+            this.botonPersonalizado1.Click += new System.EventHandler(this.botonPersonalizado1_Click);
+            // 
+            // botonPersonalizado2
+            // 
+            this.botonPersonalizado2.BackColor = System.Drawing.Color.Red;
+            this.botonPersonalizado2.BackgroundColor = System.Drawing.Color.Red;
+            this.botonPersonalizado2.BorderColor = System.Drawing.Color.Yellow;
+            this.botonPersonalizado2.BorderRadius = 40;
+            this.botonPersonalizado2.BorderSize = 0;
+            this.botonPersonalizado2.FlatAppearance.BorderSize = 0;
+            this.botonPersonalizado2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botonPersonalizado2.ForeColor = System.Drawing.Color.White;
+            this.botonPersonalizado2.Location = new System.Drawing.Point(929, 606);
+            this.botonPersonalizado2.Name = "botonPersonalizado2";
+            this.botonPersonalizado2.Size = new System.Drawing.Size(225, 60);
+            this.botonPersonalizado2.TabIndex = 53;
+            this.botonPersonalizado2.Text = "Volver";
+            this.botonPersonalizado2.TextColor = System.Drawing.Color.White;
+            this.botonPersonalizado2.UseVisualStyleBackColor = false;
+            // 
+            // cmb_especialidades
+            // 
+            this.cmb_especialidades.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.cmb_especialidades.ForeColor = System.Drawing.Color.DimGray;
+            this.cmb_especialidades.Location = new System.Drawing.Point(155, 542);
+            this.cmb_especialidades.MinimumSize = new System.Drawing.Size(200, 30);
+            this.cmb_especialidades.Name = "cmb_especialidades";
+            this.cmb_especialidades.Padding = new System.Windows.Forms.Padding(1);
+            this.cmb_especialidades.Size = new System.Drawing.Size(200, 30);
+            this.cmb_especialidades.TabIndex = 54;
+            // 
+            // cmb_turnos
+            // 
+            this.cmb_turnos.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.cmb_turnos.ForeColor = System.Drawing.Color.DimGray;
+            this.cmb_turnos.Location = new System.Drawing.Point(411, 495);
+            this.cmb_turnos.MinimumSize = new System.Drawing.Size(100, 30);
+            this.cmb_turnos.Name = "cmb_turnos";
+            this.cmb_turnos.Padding = new System.Windows.Forms.Padding(1);
+            this.cmb_turnos.Size = new System.Drawing.Size(151, 30);
+            this.cmb_turnos.TabIndex = 55;
+            // 
+            // cmb_divisiones
+            // 
+            this.cmb_divisiones.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.cmb_divisiones.ForeColor = System.Drawing.Color.DimGray;
+            this.cmb_divisiones.Location = new System.Drawing.Point(234, 498);
+            this.cmb_divisiones.MinimumSize = new System.Drawing.Size(100, 30);
+            this.cmb_divisiones.Name = "cmb_divisiones";
+            this.cmb_divisiones.Padding = new System.Windows.Forms.Padding(1);
+            this.cmb_divisiones.Size = new System.Drawing.Size(100, 30);
+            this.cmb_divisiones.TabIndex = 56;
+            // 
+            // cmb_cursos
+            // 
+            this.cmb_cursos.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.cmb_cursos.ForeColor = System.Drawing.Color.DimGray;
+            this.cmb_cursos.Location = new System.Drawing.Point(93, 498);
+            this.cmb_cursos.MinimumSize = new System.Drawing.Size(50, 30);
+            this.cmb_cursos.Name = "cmb_cursos";
+            this.cmb_cursos.Padding = new System.Windows.Forms.Padding(1);
+            this.cmb_cursos.Size = new System.Drawing.Size(58, 30);
+            this.cmb_cursos.TabIndex = 57;
+            // 
+            // textBoxPersonalizado1
+            // 
+            this.textBoxPersonalizado1.BackColor = System.Drawing.Color.Gray;
+            this.textBoxPersonalizado1.BorderColor = System.Drawing.Color.MediumBlue;
+            this.textBoxPersonalizado1.BorderSize = 2;
+            this.textBoxPersonalizado1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBoxPersonalizado1.ForeColor = System.Drawing.Color.Black;
+            this.textBoxPersonalizado1.Location = new System.Drawing.Point(190, 188);
+            this.textBoxPersonalizado1.Multiline = false;
+            this.textBoxPersonalizado1.Name = "textBoxPersonalizado1";
+            this.textBoxPersonalizado1.Padding = new System.Windows.Forms.Padding(7);
+            this.textBoxPersonalizado1.PasswordChar = false;
+            this.textBoxPersonalizado1.Size = new System.Drawing.Size(194, 40);
+            this.textBoxPersonalizado1.TabIndex = 58;
+            this.textBoxPersonalizado1.Texts = "";
+            this.textBoxPersonalizado1.UnderlinedStyle = true;
             // 
             // pantallaRegistrar
             // 
@@ -584,36 +562,30 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1166, 678);
-            this.Controls.Add(this.textBox13);
+            this.Controls.Add(this.textBoxPersonalizado1);
+            this.Controls.Add(this.cmb_cursos);
+            this.Controls.Add(this.cmb_divisiones);
+            this.Controls.Add(this.cmb_turnos);
+            this.Controls.Add(this.cmb_especialidades);
+            this.Controls.Add(this.botonPersonalizado2);
+            this.Controls.Add(this.botonPersonalizado1);
             this.Controls.Add(this.label25);
             this.Controls.Add(this.textBox12);
             this.Controls.Add(this.textBox11);
             this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.label24);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.label23);
             this.Controls.Add(this.dateTimePicker2);
             this.Controls.Add(this.label22);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label17);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.comboBox5);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
@@ -658,38 +630,32 @@
         private Label label13;
         private Label label14;
         private Label label15;
-        private ComboBox comboBox1;
-        private ComboBox comboBox2;
-        private ComboBox comboBox3;
         private DateTimePicker dateTimePicker1;
         private Label label16;
-        private ComboBox comboBox5;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
-        private Button button1;
         private Label label17;
         private Label label18;
         private Label label19;
         private Label label20;
         private Label label21;
-        private TextBox textBox1;
-        private TextBox textBox5;
         private DateTimePicker dateTimePicker2;
         private Label label22;
         private TextBox textBox6;
         private Label label23;
         private TextBox textBox7;
         private Label label24;
-        private TextBox textBox8;
-        private TextBox textBox9;
         private TextBox textBox10;
         private TextBox textBox11;
         private TextBox textBox12;
         private Label label25;
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
-        private TextBox textBox13;
         private PictureBox pictureBox3;
+        private BotonPersonalizado botonPersonalizado1;
+        private BotonPersonalizado botonPersonalizado2;
+        private ComboboxPersonalizado cmb_especialidades;
+        private ComboboxPersonalizado cmb_turnos;
+        private ComboboxPersonalizado cmb_divisiones;
+        private ComboboxPersonalizado cmb_cursos;
+        private TextBoxPersonalizado textBoxPersonalizado1;
     }
 }

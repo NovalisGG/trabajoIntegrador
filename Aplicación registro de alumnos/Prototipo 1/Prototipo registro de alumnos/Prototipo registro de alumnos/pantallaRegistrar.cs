@@ -7,11 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace Prototipo_registro_de_alumnos
 {
     public partial class pantallaRegistrar : Form
     {
+        SqlConnection connRegistrar = new SqlConnection(@"Data Source=MARIANORUARTE;Initial Catalog=RegistroAlumnosCassaffousth;Integrated Security=True");
+        Cursos curso = new Cursos();
         public pantallaRegistrar()
         {
             InitializeComponent();
@@ -33,6 +36,26 @@ namespace Prototipo_registro_de_alumnos
         }
 
         private void pantallaRegistrar_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void botonPersonalizado1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guardarDatos()
+        {
+            SqlDataAdapter da = new SqlDataAdapter("insert into Alumnos", connRegistrar);
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxPersonalizado2__TextChanged(object sender, EventArgs e)
         {
 
         }
