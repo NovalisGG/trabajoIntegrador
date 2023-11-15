@@ -7,13 +7,13 @@ using System.Data.SqlClient;
 using System.Configuration;
 using System.Data;
 
-namespace Prototipo_registro_de_alumnos
+namespace Prototipo_registro_de_alumnos.Clases
 {
     public class Conexion
     {
-       public SqlConnection LeerCadena()
+        public SqlConnection LeerCadena()
         {
-            SqlConnection cn = new SqlConnection(ConfigurationManager.ConnectionStrings["Data Source=MARIANORUARTE;Initial Catalog=RegistroAlumnosCassaffousth;Integrated Security=True"].ConnectionString);
+            SqlConnection cn = new SqlConnection(ConfigurationManager.ConnectionStrings["Prototipo_registro_de_alumnos.Properties.Settings.RegistroAlumnosCassaffousth"].ConnectionString);
 
             if (cn.State == ConnectionState.Open)
             {
@@ -27,6 +27,6 @@ namespace Prototipo_registro_de_alumnos
             return cn;
 
         }
-        
+
     }
 }

@@ -6,18 +6,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Prototipo_registro_de_alumnos
+namespace Prototipo_registro_de_alumnos.Clases
 {
-    public class Cursos
+    public class Alumnos
     {
         Conexion cn = new Conexion();
 
-        public DataTable cargarComboboxCursos()
+        public DataTable MostrarAlumnos()
         {
-            SqlDataAdapter da = new SqlDataAdapter("sp_comboboxCursos", cn.LeerCadena());
+            SqlDataAdapter da = new SqlDataAdapter("sp_mostrarTablaAlumnos", cn.LeerCadena());
             da.SelectCommand.CommandType = CommandType.StoredProcedure;
             DataTable dt = new DataTable();
             da.Fill(dt);
+
             return dt;
         }
     }
