@@ -291,22 +291,33 @@ namespace Prototipo_registro_de_alumnos
             AdjustComboBoxDimensions();
         }
 
-        //Private methods
+        
         //Default event
-        private void ComboBox_SelectedIndexChanged(object? sender, EventArgs e)
+        public void ComboBox_SelectedIndexChanged(object? sender, EventArgs e)
         {
             if (OnSelectedIndexChanged != null)
             {
                 OnSelectedIndexChanged.Invoke(sender, e);
+                cmb_list.SelectedIndexChanged += Cmb_list_SelectedIndexChanged;
             }
+            
+
             //Refresh text
             lbl_Text.Text = cmb_list.Text;
         }
 
+        private void Cmb_list_SelectedIndexChanged(object? sender, EventArgs e)
+        {
+            OnSelectedIndexChanged.Invoke(sender, e);
+        }
+
+        //Private methods
         public string GetItemText()
         {
             return lbl_Text.Text;
         }
+
+        
 
         //Draw icon
         private void Icon_Paint(object? sender, PaintEventArgs e)

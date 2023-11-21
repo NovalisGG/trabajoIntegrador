@@ -19,6 +19,7 @@ namespace Prototipo_registro_de_alumnos
         private bool underlinedStyle = false;
         private Color borderFocusColor = Color.HotPink;
         private bool isFocused = false;
+        
 
         //Constructor
         public TextBoxPersonalizado()
@@ -27,7 +28,9 @@ namespace Prototipo_registro_de_alumnos
         }
 
         //Events
-        public event EventHandler _TextChanged;
+        public event EventHandler? _TextChanged;
+       
+        
 
         //Propiedades
         [Category("Ruarte Textbox")]
@@ -208,6 +211,8 @@ namespace Prototipo_registro_de_alumnos
         }
 
         //Private methods
+        
+
         private void UpdateControlHeigth()
         {
             if (textBox1.Multiline == false)
@@ -221,10 +226,7 @@ namespace Prototipo_registro_de_alumnos
             }
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            if (_TextChanged != null) _TextChanged.Invoke(sender, e);
-        }
+      
 
         private void textBox1_Click(object sender, EventArgs e)
         {
@@ -241,6 +243,25 @@ namespace Prototipo_registro_de_alumnos
         {
             isFocused = false;
             this.Invalidate();
+        }
+
+        private void textBox1_KeyPressed(object sender, KeyPressEventArgs e)
+        {
+            textBox1.KeyPress += TextBox1_KeyPress;
+        
+        }
+
+        private void TextBox1_KeyPress(object? sender, KeyPressEventArgs e)
+        {
+            return;
+        }
+
+        private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
+            if (_TextChanged != null)
+            {
+                _TextChanged.Invoke(sender, e);
+            }
         }
     }
 }
