@@ -76,15 +76,16 @@
             // 
             // btn_Buscar
             // 
-            this.btn_Buscar.BackColor = System.Drawing.Color.Gold;
-            this.btn_Buscar.BackgroundColor = System.Drawing.Color.Gold;
+            this.btn_Buscar.BackColor = System.Drawing.Color.White;
+            this.btn_Buscar.BackgroundColor = System.Drawing.Color.White;
             this.btn_Buscar.BorderColor = System.Drawing.Color.Yellow;
             this.btn_Buscar.BorderRadius = 40;
             this.btn_Buscar.BorderSize = 0;
             this.btn_Buscar.FlatAppearance.BorderSize = 0;
             this.btn_Buscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Buscar.Font = new System.Drawing.Font("Cascadia Code", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_Buscar.ForeColor = System.Drawing.Color.Black;
-            this.btn_Buscar.Location = new System.Drawing.Point(869, 130);
+            this.btn_Buscar.Location = new System.Drawing.Point(856, 126);
             this.btn_Buscar.Name = "btn_Buscar";
             this.btn_Buscar.Size = new System.Drawing.Size(99, 46);
             this.btn_Buscar.TabIndex = 7;
@@ -98,12 +99,12 @@
             this.cmb_tutorOalumno.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.cmb_tutorOalumno.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.cmb_tutorOalumno.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.cmb_tutorOalumno.BorderColor = System.Drawing.Color.MediumSlateBlue;
+            this.cmb_tutorOalumno.BorderColor = System.Drawing.Color.Crimson;
             this.cmb_tutorOalumno.BorderSize = 1;
             this.cmb_tutorOalumno.DisplayMember = "";
             this.cmb_tutorOalumno.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDown;
             this.cmb_tutorOalumno.ForeColor = System.Drawing.Color.DimGray;
-            this.cmb_tutorOalumno.IconColor = System.Drawing.Color.MediumSlateBlue;
+            this.cmb_tutorOalumno.IconColor = System.Drawing.Color.Crimson;
             this.cmb_tutorOalumno.Items.AddRange(new object[] {
             "Alumno",
             "Tutor"});
@@ -131,17 +132,18 @@
             // 
             // btn_eliminarRegistro
             // 
-            this.btn_eliminarRegistro.BackColor = System.Drawing.Color.Gold;
-            this.btn_eliminarRegistro.BackgroundColor = System.Drawing.Color.Gold;
+            this.btn_eliminarRegistro.BackColor = System.Drawing.Color.White;
+            this.btn_eliminarRegistro.BackgroundColor = System.Drawing.Color.White;
             this.btn_eliminarRegistro.BorderColor = System.Drawing.Color.Yellow;
             this.btn_eliminarRegistro.BorderRadius = 40;
             this.btn_eliminarRegistro.BorderSize = 0;
             this.btn_eliminarRegistro.FlatAppearance.BorderSize = 0;
             this.btn_eliminarRegistro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_eliminarRegistro.Font = new System.Drawing.Font("Cascadia Code", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_eliminarRegistro.ForeColor = System.Drawing.Color.Black;
-            this.btn_eliminarRegistro.Location = new System.Drawing.Point(974, 130);
+            this.btn_eliminarRegistro.Location = new System.Drawing.Point(959, 124);
             this.btn_eliminarRegistro.Name = "btn_eliminarRegistro";
-            this.btn_eliminarRegistro.Size = new System.Drawing.Size(99, 46);
+            this.btn_eliminarRegistro.Size = new System.Drawing.Size(106, 46);
             this.btn_eliminarRegistro.TabIndex = 11;
             this.btn_eliminarRegistro.Text = "Eliminar";
             this.btn_eliminarRegistro.TextColor = System.Drawing.Color.Black;

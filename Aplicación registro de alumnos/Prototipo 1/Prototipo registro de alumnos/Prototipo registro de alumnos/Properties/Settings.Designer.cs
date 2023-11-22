@@ -33,5 +33,14 @@ namespace Prototipo_registro_de_alumnos.Properties {
                 return ((string)(this["RegistroAlumnosCassaffousth"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        public string hola {
+            get {
+                return ((string)(this["hola"]));
+            }
+        }
     }
 }

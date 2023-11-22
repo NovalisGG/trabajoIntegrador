@@ -22,5 +22,8 @@
     <Compile Update="TextBoxPersonalizado.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Ventanas\ventanaAgregarServidor.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

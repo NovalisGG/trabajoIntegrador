@@ -18,6 +18,7 @@ namespace Prototipo_registro_de_alumnos
         Image? fotoCus;
         Image? fotoDNI;
         SqlCombobox c = new SqlCombobox();
+        public static string cadenaConexión;
         public pantallaRegistrar()
         {
             InitializeComponent();
@@ -133,7 +134,7 @@ namespace Prototipo_registro_de_alumnos
 
             string queryTutores = "INSERT INTO Tutores (dni_tutor, parentesco, nombreTutor, apellidoTutor, fechaNacimientoTutor, genero, emailTutor, telefonoTutor, nacionalidad, ocupacion) VALUES(@dni_tutor, @parentesco, @nombreTutor, @apellidoTutor, @fechaNacimientoTutor, @genero, @emailTutor, @telefonoTutor, @nacionalidad, @ocupacion)";
 
-            using (SqlConnection connection = new SqlConnection("Data Source=MARIANORUARTE;Initial Catalog=RegistroAlumnosCassaffousth;Integrated Security=True"))
+            using (SqlConnection connection = new SqlConnection(cadenaConexión))
             {
                 SqlCommand command = new SqlCommand(queryTutores, connection);
                 command.Parameters.AddWithValue("@dni_tutor", Convert.ToInt32(dniTutor));
