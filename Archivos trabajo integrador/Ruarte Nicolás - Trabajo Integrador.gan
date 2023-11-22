@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Trabajo Integrador" company="" webLink="http://" view-date="2023-10-23" view-index="0" gantt-divider-location="270" resource-divider-location="300" version="3.2.3247" locale="es_ES">
+<?xml version="1.0" encoding="UTF-8"?><project name="Trabajo Integrador" company="" webLink="http://" view-date="2023-11-06" view-index="0" gantt-divider-location="255" resource-divider-location="300" version="3.2.3247" locale="es_ES">
     <description/>
     <view zooming-state="default:4" id="gantt-chart">
-        <field id="tpd3" name="Nombre" width="144" order="0"/>
-        <field id="tpd4" name="Fecha de inicio" width="55" order="1"/>
-        <field id="tpd5" name="Fecha de fin" width="55" order="2"/>
+        <field id="tpd3" name="Nombre" width="135" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="52" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="52" order="2"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="color.recent">
             <![CDATA[#6666ff #66ff66 #ff3333]]>
@@ -37,7 +37,7 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="Trabajo integrador de programación" meeting="false" start="2023-10-02" duration="44" complete="69" expand="true">
+        <task id="0" name="Trabajo integrador de programación" meeting="false" start="2023-10-02" duration="52" complete="55" expand="true">
             <task id="1" name="Realizar la entrevista previa al inicio del proyecto" color="#8cb6ce" meeting="false" start="2023-10-13" duration="20" complete="95" thirdDate="2023-10-13" thirdDate-constraint="0" expand="true"/>
             <task id="2" name="Planificación" color="#8cb6ce" meeting="false" start="2023-10-02" duration="31" complete="83" thirdDate="2023-10-13" thirdDate-constraint="0" expand="true">
                 <depend id="9" type="2" difference="0" hardness="Strong"/>
@@ -61,18 +61,18 @@
                 <task id="25" name="Diagrama final registro de alumnos" color="#8cb6ce" meeting="false" start="2023-11-12" duration="1" complete="0" thirdDate="2023-11-13" thirdDate-constraint="0" expand="true"/>
                 <task id="31" name="Crear documentación de diseño" meeting="false" start="2023-11-12" duration="1" complete="0" expand="true"/>
             </task>
-            <task id="20" name="Implementación" color="#000000" meeting="false" start="2023-11-12" duration="2" complete="0" thirdDate="2023-10-23" thirdDate-constraint="0" expand="true">
-                <task id="26" name="Crear programa registro de alumnos" color="#8cb6ce" meeting="false" start="2023-11-12" duration="1" complete="0" thirdDate="2023-10-23" thirdDate-constraint="0" expand="true"/>
-                <task id="27" name="Crear documento de implementación" color="#8cb6ce" meeting="false" start="2023-11-13" duration="1" complete="0" thirdDate="2023-10-23" thirdDate-constraint="0" expand="true"/>
+            <task id="20" name="Implementación" color="#000000" meeting="false" start="2023-11-12" duration="11" complete="0" thirdDate="2023-10-23" thirdDate-constraint="0" expand="true">
+                <task id="26" name="Crear programa registro de alumnos" color="#8cb6ce" meeting="false" start="2023-11-12" duration="11" complete="0" thirdDate="2023-10-23" thirdDate-constraint="0" expand="true"/>
+                <task id="27" name="Crear documento de implementación" color="#8cb6ce" meeting="false" start="2023-11-17" duration="1" complete="0" thirdDate="2023-10-23" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="19" name="Pruebas" color="#000000" meeting="false" start="2023-10-14" duration="1" complete="0" thirdDate="2023-10-23" thirdDate-constraint="0" expand="true">
-                <task id="28" name="Documento de pruebas" color="#8cb6ce" meeting="false" start="2023-10-14" duration="1" complete="0" thirdDate="2023-10-23" thirdDate-constraint="0" expand="true"/>
+            <task id="19" name="Pruebas" color="#000000" meeting="false" start="2023-11-15" duration="8" complete="0" thirdDate="2023-10-23" thirdDate-constraint="0" expand="true">
+                <task id="28" name="Documento de pruebas" color="#8cb6ce" meeting="false" start="2023-11-15" duration="8" complete="0" thirdDate="2023-10-23" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="21" name="Instalación" meeting="false" start="2023-10-23" duration="1" complete="0" expand="false">
-                <task id="29" name="Informe para la instalación del sistema" meeting="false" start="2023-10-23" duration="1" complete="0" expand="true"/>
+            <task id="21" name="Instalación" meeting="false" start="2023-10-15" duration="1" complete="0" expand="true">
+                <task id="29" name="Informe para la instalación del sistema" color="#8cb6ce" meeting="false" start="2023-10-15" duration="1" complete="0" thirdDate="2023-10-23" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="22" name="Uso y mantenimiento" meeting="false" start="2023-10-23" duration="1" complete="0" expand="false">
-                <task id="30" name="Informe uso y mantenimiento" meeting="false" start="2023-10-23" duration="1" complete="0" expand="true"/>
+            <task id="22" name="Uso y mantenimiento" meeting="false" start="2023-10-15" duration="1" complete="0" expand="true">
+                <task id="30" name="Informe uso y mantenimiento" color="#8cb6ce" meeting="false" start="2023-10-15" duration="1" complete="0" thirdDate="2023-10-23" thirdDate-constraint="0" expand="true"/>
             </task>
             <task id="10" name="Último día" color="#ff3333" meeting="true" start="2023-11-15" duration="0" complete="0" thirdDate="2023-10-13" thirdDate-constraint="0" expand="true"/>
         </task>
